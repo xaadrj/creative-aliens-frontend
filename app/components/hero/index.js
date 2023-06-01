@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "../button";
 
-export default function Hero() {
+export default function index() {
   return (
     <div className="relative lg:h-screen pt-6">
       <div className="flex flex-col h-full items-center justify-between w-full relative z-10">
