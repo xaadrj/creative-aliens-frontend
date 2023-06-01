@@ -1,5 +1,5 @@
-import Hero from './components/hero/index';
-import FirstSection from './components/firstSection/index';
+import Hero from '../components/hero/index';
+import FirstSection from '../components/firstSection/index';
 
 
 export default function Home() {
