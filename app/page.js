@@ -1,5 +1,5 @@
-import Hero from './components/Hero';
-import FirstSection from './components/FirstSection';
+import Hero from './components/hero';
+import FirstSection from './components/firstSection';
 
 
 export default function Home() {
