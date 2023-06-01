@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Button from '../button';
 
-export default function index() {
+export default function FirstSection() {
   return (
     <div className='flex items-center justify-center bg-black py-6 md:py-20 xl:py-40 relative'>
       <div className='px-4 lg:px-16 xl:container flex-col flex items-center justify-center relative z-10  md:w-full'>
