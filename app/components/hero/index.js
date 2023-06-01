@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Button from "../button";
 
 export default function Hero() {
   return (
-    <div className="relative md:h-screen pt-6">
+    <div className="relative lg:h-screen pt-6">
       <div className="flex flex-col h-full items-center justify-between w-full relative z-10">
         <div className="px-4 lg:px-16 xl:container pb-10 h-full">
           <navbar className="flex  justify-between items-center">
@@ -41,15 +42,7 @@ export default function Hero() {
           </div>
           <div className="flex pt-8 2xl:pt-14 gap-10 md:gap-6 lg:gap-16 flex-col-reverse lg:flex-row justify-center items-center">
             <div>
-              <button className="rounded-full hover:-translate-y-1 duration-150 ease-in-out text-emerald-500 text-xs bg-white text-center flex items-center justify-center space-x-2 font-medium uppercase py-3 px-6">
-                <span> Our works </span>
-                <Image
-                  width={15}
-                  height={12}
-                  src="/icons/arrow.svg"
-                  alt="arrow"
-                />
-              </button>
+              <Button Color={'white'} Text="Our Works"  />
             </div>
             <div className="text-center md:w-4/6 lg:text-left lg:w-80 text-xl 2xl:text-2xl leading-7 ">
               Creative Alien is a multidisciplinary 
