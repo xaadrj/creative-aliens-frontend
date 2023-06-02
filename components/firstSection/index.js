@@ -5,7 +5,7 @@ export default function FirstSection() {
   return (
     <div className='flex items-center justify-center bg-black py-6 md:py-20 xl:py-40 relative'>
       <div className='px-4 lg:px-16 xl:container flex-col flex items-center justify-center relative z-10  md:w-full'>
-       <h1 className="text-center md:w-9/12 uppercase text-white 2xl:tracking-wide text-3xl md:text-4xl lg:text-5xl 2xl:leading-normal 2xl:text-6xl">
+       <h1 className="text-center md:w-9/12 uppercase text-gray-300 2xl:tracking-wide text-3xl md:text-4xl lg:text-5xl 2xl:leading-normal 2xl:text-6xl">
               <i>C</i>reative Aliens is design & technology firm working
             </h1>
             <Image
@@ -15,7 +15,7 @@ export default function FirstSection() {
         src="/images/image-1.jpg"
         alt="image-1"
       />
-      <h1 className="text-center mb-10 md:w-8/12 uppercase text-white 2xl:tracking-wide text-3xl md:text-4xl lg:text-5xl 2xl:leading-normal 2xl:text-6xl">
+      <h1 className="text-center mb-10 md:w-8/12 uppercase text-gray-300 2xl:tracking-wide text-3xl md:text-4xl lg:text-5xl 2xl:leading-normal 2xl:text-6xl">
              Globally from our offices based in russia
             </h1>
             <Button Text={'Know more'}/>

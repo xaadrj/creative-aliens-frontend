@@ -1,5 +1,6 @@
 import Hero from '../components/hero/index';
 import FirstSection from '../components/firstSection/index';
+import SecondSection from '@/components/secondSection';
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="">
       <Hero/>
       <FirstSection/>
+      <SecondSection/>
     </main>
   )
 }
