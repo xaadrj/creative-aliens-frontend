@@ -64,7 +64,7 @@ export default function Index() {
                         }}
                         className="swiper mySwiper">
                         <SwiperSlide className="swiper-slide  ">
-                            <div className="flex w-full  px-5 md:px-20 xl:w-3/4 flex-col items-center">
+                            <div className="flex bg-black w-full  px-5 md:px-20 xl:w-3/4 flex-col items-center">
                                 <p className="text-center  lg:text-left font-light text-2xl leading-8 text-gray-300"><span className="md:text-3xl xl:text-4xl">“</span> Frustration and Love can’t exist in the same place at the same time, so get real and start doing what you would rather be doing in life. Love your life. All of it. Even the heavy shit that happened to you when you were 8. All of it was and is perfect. <span className="md:text-3xl xl:text-4xl">”</span></p>
                                 <div className="mt-16 md:mt-14 xl:mt-6 flex justify-start w-full items-center space-x-4">
                                     <div className="w-12 h-12  rounded-full bg-white p-1">
@@ -78,7 +78,7 @@ export default function Index() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <div className="flex w-full  px-5 md:px-20 xl:w-3/4 flex-col items-center">
+                            <div className="flex bg-black w-full  px-5 md:px-20 xl:w-3/4 flex-col items-center">
                                 <p className="text-center  lg:text-left font-light text-2xl leading-8 text-gray-300"><span className="md:text-3xl xl:text-4xl">“</span> Frustration and Love can’t exist in the same place at the same time, so get real and start doing what you would rather be doing in life. Love your life. All of it. Even the heavy shit that happened to you when you were 8. All of it was and is perfect. <span className="md:text-3xl xl:text-4xl">”</span></p>
                                 <div className="mt-16 md:mt-14 xl:mt-6 flex justify-start w-full items-center space-x-4">
                                     <div className="w-12 h-12  rounded-full bg-white p-1">
@@ -92,7 +92,7 @@ export default function Index() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <div className="flex w-full  px-5 md:px-20 xl:w-3/4 flex-col items-center">
+                            <div className="flex bg-black w-full  px-5 md:px-20 xl:w-3/4 flex-col items-center">
                                 <p className="text-center  lg:text-left font-light text-2xl leading-8 text-gray-300"><span className="md:text-3xl xl:text-4xl">“</span> Frustration and Love can’t exist in the same place at the same time, so get real and start doing what you would rather be doing in life. Love your life. All of it. Even the heavy shit that happened to you when you were 8. All of it was and is perfect. <span className="md:text-3xl xl:text-4xl">”</span></p>
                                 <div className="mt-16 md:mt-14 xl:mt-6 flex justify-start w-full items-center space-x-4">
                                     <div className="w-12 h-12  rounded-full bg-white p-1">
