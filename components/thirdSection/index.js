@@ -20,7 +20,7 @@ export default function secondSection() {
           </p>
           <h1 className='text-4xl'>User Research</h1>
           <p className='py-6 text-xl lg:w-72 xl:w-80  '>
-          On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte. est quil possède une distributio
+          On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. Lavantage du Lorem Ipsum sur un texte générique comme Du texte. Du texte. Du texte. est quil possède une distributio
           </p>
           </div>
           <Image
