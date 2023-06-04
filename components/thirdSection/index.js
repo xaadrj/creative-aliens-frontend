@@ -15,13 +15,13 @@ export default function secondSection() {
         <div className='relative w-full flex items-start justify-end h-full pt-10 pb-24 pl-16 pr-12 '>
           <div className='relative z-10'
           >
-          <p className='py-6 text-xl '>
-            01
-          </p>
-          <h1 className='text-4xl'>User Research</h1>
-          <p className='py-6 text-xl lg:w-72 xl:w-80  '>
-          On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. Lavantage du Lorem Ipsum sur un texte générique comme Du texte. Du texte. Du texte. est quil possède une distributio
-          </p>
+            <p className='py-6 text-xl '>
+              01
+            </p>
+            <h1 className='text-4xl'>User Research</h1>
+            <p className='py-6 text-xl lg:w-72 xl:w-80  '>
+              On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. Lavantage du Lorem Ipsum sur un texte générique comme Du texte. Du texte. Du texte. est quil possède une distributio
+            </p>
           </div>
           <Image
             className="absolute z-0 h-full w-full"
@@ -32,7 +32,7 @@ export default function secondSection() {
           />
         </div>
         <div className='w-full px-4 md:px-0 md:pl-20 lg:pl-0'>
-        <Slider />
+          <Slider />
         </div>
       </div>
 

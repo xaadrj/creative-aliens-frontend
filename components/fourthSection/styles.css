@@ -1,62 +1,64 @@
 .mainDiv {
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  width: 100%
+}
+
+.swiper-backface-hidden .swiper-slide {
+  background-color: black;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .mainDiv {
     position: relative;
-    height: 100%;
-    padding: 20px;
     width: 100%
   }
-
-  .swiper-backface-hidden .swiper-slide  {
-    background-color: black;
-  }
-
-  .swiper-button-next::after,
-    .swiper-button-prev::after {
-        content: "";
-    }
-
-    .swiper-wrapper{
-        display: flex;
-        align-items: center;
-    } 
-
-    .swiper {    
-        height: 100%;
-    }
-   
-    @media (min-width: 768px) { 
-    .mainDiv {
-    position: relative;
-    width: 100%
-  } 
 
   .swiper-button-next,
-    .swiper-button-prev {
-        height: 32px;
-        width: 32px;
-        margin: -40px 30px;
-    }
+  .swiper-button-prev {
+    height: 32px;
+    width: 32px;
+    margin: -40px 30px;
   }
-  @media (min-width: 1024px) { 
-    .mainDiv {
+}
+
+@media (min-width: 1024px) {
+  .mainDiv {
     position: relative;
     padding: 40px;
     width: 85%
-  } 
+  }
 
   .swiper-button-next,
-    .swiper-button-prev {
-        height: 40px;
-        width: 40px;
-        margin-top: -50px;
-    }
-  }   
+  .swiper-button-prev {
+    height: 40px;
+    width: 40px;
+    margin-top: -50px;
+  }
+}
 
-    .swiper-slide {
-        
-        text-align: center;
-        font-size: 18px;
-    }
-    .swiper-slide img {          
-        width: 660px;
-        object-fit: cover;
-    }
+.swiper-slide {
+
+  text-align: center;
+  font-size: 18px;
+}
+
+.swiper-slide img {
+  width: 660px;
+  object-fit: cover;
+}

@@ -35,30 +35,30 @@ export default function Hero() {
             </div>
           </navbar>
           <div className="h-full justify-between flex flex-col">
-          <div className="w-full flex items-center justify-center pt-24 ">
-            <h1 className="text-center uppercase font-medium text-5xl lg:text-7xl 2xl:text-8xl">
-              <i>W</i>e design for <i>a</i>liens
-            </h1>
-          </div>
-          <div className="flex pt-8 2xl:pt-14 gap-10 md:gap-6 lg:gap-16 flex-col-reverse lg:flex-row justify-center items-center">
-            <div>
-              <Button Color={'white'} Text="Our Works"  />
+            <div className="w-full flex items-center justify-center pt-24 ">
+              <h1 className="text-center uppercase font-medium text-5xl lg:text-7xl 2xl:text-8xl">
+                <i>W</i>e design for <i>a</i>liens
+              </h1>
             </div>
-            <div className="text-center md:w-4/6 lg:text-left lg:w-80 text-xl 2xl:text-2xl leading-7 ">
-              Creative Alien is a multidisciplinary 
-              creative studio at a intersection of art, 
-              design and technology.
+            <div className="flex pt-8 2xl:pt-14 gap-10 md:gap-6 lg:gap-16 flex-col-reverse lg:flex-row justify-center items-center">
+              <div>
+                <Button Color={'white'} Text="Our Works" />
+              </div>
+              <div className="text-center md:w-4/6 lg:text-left lg:w-80 text-xl 2xl:text-2xl leading-7 ">
+                Creative Alien is a multidisciplinary
+                creative studio at a intersection of art,
+                design and technology.
+              </div>
             </div>
-          </div>
-          <div className="h-full flex my-6 w-full items-center  justify-end flex-col">
-            <span className="leading-3">explore more</span>
-            <Image
-              width={20}
-              height={10}
-              src="/icons/menu-2.svg"
-              alt="menu-icon"
-            />
-          </div>
+            <div className="h-full flex my-6 w-full items-center  justify-end flex-col">
+              <span className="leading-3">explore more</span>
+              <Image
+                width={20}
+                height={10}
+                src="/icons/menu-2.svg"
+                alt="menu-icon"
+              />
+            </div>
           </div>
         </div>
         <div className="flex gap-8 md:gap-0 py-6 h-full flex-col md:flex-row px-4 md:px-16 md:h-28 bg-black bg-opacity-5 backdrop-blur-sm  w-full items-center justify-center">
