@@ -5,6 +5,7 @@ import ThirdSection  from '@/components/thirdSection';
 import FourthSection from '@/components/fourthSection';
 import FifthSection from '@/components/fifthSection/index';
 import Newsletter from '@/components/newsletter'; 
+import Footer from '@/components/footer';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <FourthSection/>
       <FifthSection/>
       <Newsletter/>
+      <Footer/>
     </main>
   )
 }
