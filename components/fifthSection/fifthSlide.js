@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import "./styles.css"
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 export default function App() {
   return (
@@ -19,6 +19,10 @@ export default function App() {
     <div className="relative mx-4  md:mr-0 md:ml-40 xl:ml-40">
     <div className="h-full w-full">
       <Swiper
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
        breakpoints={{
         // when window width is >= 640px
         640: {
@@ -34,6 +38,7 @@ export default function App() {
           slidesPerView: 3,
         },
       }}
+      modules={[Autoplay]}
         spaceBetween={30}
         className="mySwiper"
       >

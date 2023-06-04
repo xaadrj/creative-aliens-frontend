@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 export default function App() {
   return (
@@ -17,8 +17,13 @@ export default function App() {
     <div className="h-full w-full">
       <Swiper
         slidesPerView={"auto"}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         spaceBetween={30}
         className="mySwiper"
+        modules={[Autoplay]}
       >
         <SwiperSlide>
             <div className="bg-white h-full pb-5">
