@@ -22,7 +22,7 @@ SwiperCore.use([Navigation]);
 
 export default function Index() {
     return (
-        <div className=" relative bg-black">
+        <div className=" relative bg-black pb-40">
             <div className="py-12 relative flex flex-col items-center justify-center ">
                 <div className="px-4 flex relative flex-col justify-center items-center">
                     <h1 className="text-center w-full uppercase text-gray-300 2xl:tracking-wide text-3xl md:text-4xl lg:text-5xl  2xl:text-8xl">

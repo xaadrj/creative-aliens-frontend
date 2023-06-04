@@ -56,7 +56,7 @@ export default function App() {
             </div></SwiperSlide>
       </Swiper>
     </div>
-    <style>
+    <style >
         {`
           
   .swiper {
@@ -64,6 +64,11 @@ export default function App() {
     height: auto;
     padding-top : 40px;
   }
+
+  .swiper-slide img {
+    object-fit : cover; 
+    width : 100%;
+}
   
   .swiper-slide {
     text-align: center;

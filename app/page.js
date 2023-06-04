@@ -3,6 +3,7 @@ import FirstSection from '../components/firstSection/index';
 import SecondSection from '@/components/secondSection';
 import ThirdSection  from '@/components/thirdSection';
 import FourthSection from '@/components/fourthSection';
+import FifthSection from '@/components/fifthSection/index';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <SecondSection/>
       <ThirdSection/>
       <FourthSection/>
+      <FifthSection/>
     </main>
   )
 }
