@@ -9,7 +9,7 @@ import Newsletter from '@/components/newsletter';
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-black">
       <Hero/>
       <FirstSection/>
       <SecondSection/>

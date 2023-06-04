@@ -15,7 +15,7 @@ import { Pagination, Autoplay } from "swiper";
 
 export default function App() {
   return (
-    <div className="relative">
+    <div className="relative bg-transparent">
       <div className="relative mx-4  md:mr-0 md:ml-40 xl:ml-40">
         <div className="h-full w-full">
           <Swiper
@@ -43,7 +43,7 @@ export default function App() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="w-full text-gray-400 h-full flex flex-col items-center">
+              <div className="w-full  text-gray-400 bg-transparent h-full flex flex-col items-center">
                 <div className="w-full group relative flex items-center justify-center">
                   <img className="opacity-100 group-hover:opacity-0 " src="/images/image-9.jpg" alt="image-9" />
                   <div className="absolute p-4 xl:p-10 justify-center bg-gray-200 text-gray-900 text-left h-full w-full flex opacity-0 group-hover:opacity-100 items-start flex-col">
@@ -59,7 +59,7 @@ export default function App() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full text-gray-400 h-full flex flex-col items-center">
+              <div className="w-full text-gray-400 bg-transparent h-full flex flex-col items-center">
                 <div className="w-full group relative flex items-center justify-center">
                   <img className="opacity-100 group-hover:opacity-0 " src="/images/image-10.jpg" alt="image-9" />
                   <div className="absolute p-4 xl:p-10 justify-center bg-gray-200 text-gray-900 text-left h-full w-full flex opacity-0 group-hover:opacity-100 items-start flex-col">
@@ -75,7 +75,7 @@ export default function App() {
               </div>
 
             </SwiperSlide>
-            <SwiperSlide>   <div className="w-full text-gray-400 h-full flex flex-col items-center">
+            <SwiperSlide>   <div className="w-full text-gray-400 bg-transparent h-full flex flex-col items-center">
               <div className="w-full group relative flex items-center justify-center">
                 <img className="opacity-100 group-hover:opacity-0 " src="/images/image-11.jpg" alt="image-9" />
                 <div className="absolute p-4 xl:p-10 justify-center bg-gray-200 text-gray-900 text-left h-full w-full flex opacity-0 group-hover:opacity-100 items-start flex-col">
@@ -91,7 +91,7 @@ export default function App() {
               <p className="uppercase font-light md:text-2xl mt-4">Motion designer</p>
             </div>
             </SwiperSlide>
-            <SwiperSlide>   <div className="w-full text-gray-400 h-full flex flex-col items-center">
+            <SwiperSlide>   <div className="w-full text-gray-400 bg-transparent h-full flex flex-col items-center">
               <div className="w-full group relative flex items-center justify-center">
                 <img className="opacity-100 group-hover:opacity-0 " src="/images/image-12.jpg" alt="image-9" />
                 <div className="absolute p-4 xl:p-10 justify-center bg-gray-200 text-gray-900 text-left h-full w-full flex opacity-0 group-hover:opacity-100 items-start flex-col">

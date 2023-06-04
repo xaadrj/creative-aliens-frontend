@@ -1,37 +1,38 @@
 .swiper {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+  background: transparent;
+}
 
-  .swiper-backface-hidden .swiper-slide  {
-    background-color: transparent;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
+.swiper-backface-hidden .swiper-slide {
+  background: transparent;
+}
 
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img + .slide-div {
-      object-fit : cover; 
-      width : auto;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
 
-  @media (min-width: 640px) { 
-  
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img+.slide-div {
+  object-fit: cover;
+  width: auto;
+}
+
+@media (min-width: 640px) {
+
   .swiper-slide {
     width: 40%;
   }
-  
+
   .swiper-slide:nth-child(2n) {
     width: 40%;
   }
-  
+
   .swiper-slide:nth-child(3n) {
     width: 40%;
   }

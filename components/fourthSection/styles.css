@@ -6,7 +6,7 @@
 }
 
 .swiper-backface-hidden .swiper-slide {
-  background-color: black;
+  background-color: transparent;
 }
 
 .swiper-button-next::after,
