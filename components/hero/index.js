@@ -13,7 +13,7 @@ export default function Hero() {
                 width={30}
                 height={10}
                 className="-mt-1 -rotate-12 "
-                src="/icons/bulb-icon.png"
+                src="/icons/bulb-icon.webp"
                 alt="blub"
               />
               ens
@@ -80,7 +80,7 @@ export default function Hero() {
         className="absolute z-0 w-full h-full "
         layout="fill"
         objectFit="cover"
-        src="/bg/hero-bg-new.jpg"
+        src="/bg/hero-bg-new.webp"
         alt="background"
       />
     </div>

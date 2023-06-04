@@ -10,7 +10,7 @@ export default function FifthSection() {
       <FifthSlide />
       <img
         className="absolute top-0 left-0 object-cover md:object-contain h-full"
-        src="/bg/section-bg.png"
+        src="/bg/section-bg.webp"
         alt="background"
       />
     </div>

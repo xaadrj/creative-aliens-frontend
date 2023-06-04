@@ -27,7 +27,7 @@ export default function secondSection() {
             className="absolute z-0 h-full w-full"
             layout="fill"
             objectFit="cover"
-            src="/bg/hero-bg-new.jpg"
+            src="/bg/hero-bg-new.webp"
             alt="background"
           />
         </div>
